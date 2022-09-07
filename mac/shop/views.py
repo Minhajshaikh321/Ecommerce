@@ -105,12 +105,12 @@ def checkout(request):
     return render(request, 'shop/checkout.html')
 @csrf_exempt
 
-def handlerequest(request):
-    # paytm will start here
-    form = request.POST
-    response_dict = {}
-    return HttpResponse('done')
-    pass
+# def handlerequest(request):
+#     # paytm will start here
+#     form = request.POST
+#     response_dict = {}
+#     return HttpResponse('done')
+#     pass
 
 
 
